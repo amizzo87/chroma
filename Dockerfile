@@ -29,5 +29,6 @@ COPY ./bin/docker_entrypoint.sh /docker_entrypoint.sh
 COPY ./ /chroma
 
 EXPOSE 8000
+EXPOSE 8555
 
 CMD ["/docker_entrypoint.sh"]
